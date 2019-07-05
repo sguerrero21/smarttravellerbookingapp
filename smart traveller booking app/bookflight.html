@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Book Flight</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"  crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"  crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="design8.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>SMART TRAVELLER</h1>
+                <nav>
+                    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="loginpage.html">Log out</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Book a Flight</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies felis et tellus faucibus, non
+                venenatis elit convallis.
+            </p>
+        </div>
+    </section>
+    <!-- 
+    <section id="boundary">
+        <div class="container">
+        </div>
+    </section> -->
+
+    <!-- <section id="booking">
+        <div class="container">
+            <button class="domesticbutton">Domestic</button>
+            <a href="international.html"><button class="internationalbutton">International</button></a>
+        </div>
+    </section> -->
+
+
+    <!-- <section>
+        <div class="containertoggle">
+            <div class="toggle-btn" onclick="this.classList.toggle('active')">
+                <div class="inner-circle"></div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="trips">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <div class="row">
+                        <div class="column">
+                            <p>Cheapest Flights:</p>
+                        </div>
+                        <div class="column">
+                            <div class="toggle-btn" id="toggle_cheapest" onclick="this.classList.toggle('active')">
+                                <div class="inner-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <div class="row" style="margin-top: -40px!important;">
+                        <div class="column">
+                            <p>Earliest Flights:</p>
+                        </div>
+                        <div class="column">
+                            <div class="toggle-btn" id="toggle_earliest" onclick="this.classList.toggle('active')">
+                                <div class="inner-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FLIGHTS -->
+        <div class="container">
+            <!-- CHEAPEST FLIGHTS -->
+            <div id="cheapest_flights">
+                <!-- FLIGHT BOX -->
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    04:45
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/cebupacific.png" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    08:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">MINIMUM FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3000PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    04:45
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/cebupacific.png" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    08:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">MINIMUM FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3500PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    04:45
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/Philippine-Airlines.jpg" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    08:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">MINIMUM FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3850PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    04:45
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/Philippine-Airlines.jpg" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    08:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">MINIMUM FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3900PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    04:45
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/skyjet.jpg" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    08:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">MINIMUM FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">4000PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+            </div>
+            <!-- CHEAPEST FLIGHTS END -->
+
+            <!-- EARLIEST FLIGHTS -->
+            <div id="earliest_flights">
+                <!-- FLIGHT BOX -->
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    04:45
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/cebupacific.png" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    08:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">FLIGHT FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3000PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    05:45
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/cebupacific.png" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    09:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">FLIGHT FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3500PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    06:00
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/Philippine-Airlines.jpg" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    09:50
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">FLIGHT FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3850PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    07:30
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/Philippine-Airlines.jpg" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    10:30
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">FLIGHT FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">3900PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+
+                <div class="row">
+                    <div class="flight_box">
+                        <div class="top_details row">
+                            <div class="column">
+                                <div class="row">
+                                    08:00
+                                </div>
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="img/skyjet.jpg" class="flight_icons">
+                                    </div>
+                                    <div class="column">
+                                        <img src="img/plane.png" class="flight_icons plane_img">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column" id="flight_travel_time">
+                                <div class="row">
+                                    <h4>3h 45m</h4>
+                                </div>
+                                <div class="row div_dash">
+
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    10:50
+                                </div>
+                                <div class="row">
+                                    <img src="img/destination.png" class="flight_icons">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mid_line">
+                            <p style="margin-left:-90px;">FLIGHT FARE</p>
+                        </div>
+                        <div class="row bot_line">
+                            <h3 style="margin-left:-90px;">4000PHP</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- FLIGHT BOX -->
+            </div>
+            <!-- EARLIEST FLIGHTS END -->
+        </div>
+    </section>
+
+
+
+    <!-- <section id="trips">
+        <div class="container">
+            <button class="onewaybutton">One-way</button>
+            <button class="roundtripbutton">Round-trip</button>
+        </div>
+    </section> -->
+
+    <!-- <section id="destination">
+        <div class="container">
+            <div class="textboxes">
+                <p>From:</p><input type="text" placeholder="Select City">
+                <p>To:</p><input type="text" placeholder="Select City">
+                <p>Departure:</p><input type="date" placeholder="mm/dd/yyyy">
+                <p>Return:</p><input type="date" placeholder="mm/dd/yyyy">
+            </div>
+        </div>
+    </section>
+
+    <section id="traveller">
+        <div class="container">
+            <div class="textboxes">
+                <p>Adult (12+ years)</p><input type="text" placeholder="0">
+                <p>Kid (2-11 years)</p><input type="text" placeholder="0">
+                <p>Infant (under 2 years)</p><input type="text" placeholder="0">
+            </div>
+        </div>
+    </section>
+
+    <div class="radio-group">
+        <label class=radio>
+            <input type="radio" value="Economy" name="serviceclass">
+            Economy
+            <span></span>
+        </label>
+        <label class=radio>
+            <input type="radio" value="Premium" name="serviceclass">
+            Premium
+            <span></span>
+        </label>
+        <label class=radio>
+            <input type="radio" value="Business" name="serviceclass">
+            Business
+            <span></span>
+        </label>
+    </div>
+
+    <section id="BookNow">
+        <div class="container">
+            <button id="modalBtn" class="button">Find a seat</button>
+            <button class="booknow">Book Now</button>
+        </div>
+    </section> -->
+
+    <!-- <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2>Select a seat</h2>
+            </div>
+            <div class="modal-body">
+                <label class="checkboxcontainer">A1
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="checkboxcontainer">A2
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+
+                <label class="checkboxcontainer">A3
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+
+            <div class="modal-footer">
+                <h3></h3>
+            </div>
+        </div>
+    </div> -->
+
+
+    </div>
+    </div>
+
+
+    <footer>
+        <p>Smart Traveller Booking, Copyright &copy; 2019</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js"
+        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="  crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="main.js"></script>
+
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+            $('#toggle_cheapest').addClass('active');
+            $('#toggle_earliest').addClass('active');
+        });
+
+        $('#toggle_cheapest').click(function () {
+            $('#toggle_cheapest').hasClass('active') ?
+                $('#cheapest_flights').prop('hidden', false) : $('#cheapest_flights').prop('hidden', true);
+        });
+
+        $('#toggle_earliest').click(function () {
+            $('#toggle_earliest').hasClass('active') ?
+                $('#earliest_flights').prop('hidden', false) : $('#earliest_flights').prop('hidden', true);
+        });
+
+        $(".flight_box").click(function(){
+            window.location = 'personal_details.html';
+        });
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="design2.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Search Flights</title>
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>SMART TRAVELLER</h1>
+                <nav>
+                    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                        <li><a href="loginpage.html">Log out</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Search Flights</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies felis et tellus faucibus, non
+                venenatis elit convallis.
+            </p>
+        </div>
+    </section>
+
+    <sectin id="boundary">
+        <div class="container">
+        </div>
+        </section>
+
+        <section id="booking">
+            <div class="container">
+                <button class="domesticbutton">Domestic</button>
+                <a href="international.html"><button class="internationalbutton">International</button></a>
+            </div>
+        </section>
+
+        <section id="trips">
+            <div class="container">
+                <button class="onewaybutton">One-way</button>
+                <button class="roundtripbutton">Round-trip</button>
+            </div>
+        </section>
+
+        <section id="destination">
+            <div class="container">
+                <div class="textboxes">
+                    <p>From:</p><input type="text" placeholder="Select City">
+                    <p>To:</p><input type="text" placeholder="Select City">
+                    <p>Departure:</p><input type="date" placeholder="mm/dd/yyyy">
+                    <p>Return:</p><input type="date" placeholder="mm/dd/yyyy">
+                </div>
+            </div>
+        </section>
+
+        <section id="traveller">
+            <div class="container">
+                <div class="textboxes">
+                    <p>Adult (12+ years)</p><input type="text" placeholder="0">
+                    <p>Kid (2-11 years)</p><input type="text" placeholder="0">
+                    <p>Infant (under 2 years)</p><input type="text" placeholder="0">
+                </div>
+            </div>
+        </section>
+
+        <div class="radio-group">
+            <label class=radio>
+                <input type="radio" value="Economy" name="serviceclass">
+                Economy
+                <span></span>
+            </label>
+            <label class=radio>
+                <input type="radio" value="Premium" name="serviceclass">
+                Premium
+                <span></span>
+            </label>
+            <label class=radio>
+                <input type="radio" value="Business" name="serviceclass">
+                Business
+                <span></span>
+            </label>
+        </div>
+
+        <section id="BookNow">
+            <div class="container">
+                <button id="modalBtn" class="button">Find a seat</button>
+                <a href="bookflight.html"><button class="booknow">Book Now</button></a>
+            </div>
+        </section>
+
+        <div id="simpleModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="closeBtn">&times;</span>
+                    <h2>Select a seat</h2>
+                </div>
+                <div class="modal-body">
+                    <label class="checkboxcontainer">A1
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="checkboxcontainer">A2
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="checkboxcontainer">A3
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <div class="modal-footer">
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+       
+
+        </div>
+        </div>
+
+
+        <footer>
+            <p>Smart Traveller Booking, Copyright &copy; 2019</p>
+        </footer>
+
+
+</body>
+
+</html>

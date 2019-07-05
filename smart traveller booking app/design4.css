@@ -1,0 +1,150 @@
+body{
+    font-family:'Kaushan Script', cursive;
+    font-size: 20px;
+    line-height: 1.5
+    padding:0;
+    margin:0;
+    background-color: white;
+
+}
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.dark{
+    padding:15px;
+    background:#33A1C9;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+/* Header */
+header{
+    background:#67C8FF;
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:white 3px solid;
+}
+header a{
+    color:white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:18px;
+}
+ 
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+margin:0;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+header .highlight, header .current a{
+    color:gray;
+    font-weight: bold;
+}
+
+header a:hover{
+    color:gray;
+    font-weight:bold;
+}
+
+h3:hover {
+    cursor:pointer;
+    font-weight:bold;
+    transition:transform 2s;
+
+}
+
+/* Showcase */
+#showcase{
+    min-height:400px;
+    background:url('./img/takahiro-taguchi-Ew3GWH2gLnM-unsplash.jpg') no-repeat 0 -1500px;
+    text-align:left;
+    color:white;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+    font-size:30px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top:20px;
+}
+
+#boxes .box{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+}
+
+#boxes .box img{
+    width:400px;
+    cursor:pointer;
+    transition:transform 2s;
+}
+
+#boxes .box:hover img{
+    transform:scale(1.2);
+
+}
+
+#location{
+    font:Arial;
+    font-size:20px;
+}
+#email{
+    font:Arial;
+    font-size:20px;
+}
+
+footer{
+        padding:10px;
+        margin-top:200px;
+        color: white;
+        text-align:center;
+        background-color:#67C8FF;
+}
+/* Media Queries */
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #boxes .box{
+        float:none;
+        text-align:center;
+        width:100%;
+    }
+}
+

@@ -1,0 +1,238 @@
+body{
+    font-size: 30px/3;
+    padding:0;
+    margin:0;
+    font-family:'Kaushan Script', cursive;
+}
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+ul{
+    margin=0;
+    padding=0;
+    }
+}
+/* Header */
+header{
+    background:#5ab9ea;
+    color:black;
+    padding-top:30px;
+    min-height:60px;
+}
+header a{
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Kaushan Script', cursive;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+    font-weight:bold;
+    font-family:'Bree Serif', serif;
+}
+header #branding{
+    float:left;
+}
+header #branding h1{
+    margin:0;
+}
+header nav{
+    float:right;
+}
+
+header .highlight, header .current a{
+    color: white;
+    font-weight:bold;
+}
+header a:hover{
+    color: white;
+    font-weight:bold;
+}
+
+body{
+    margin=0;
+    padding=0;
+    font-family:'Kaushan Script', cursive;
+    background-color:#5ab9ea;
+}
+.login-box{
+    width:280px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+.login-box h1{
+    float:left;
+    font-size:40px;
+    border-bottom:6px solid white;
+    margin-bottom:50px;
+    padding:13px 0;
+}
+.textbox{
+    width:100%;
+    overflow: hidden;
+    font-size:20px;
+    padding:8px 0;
+    margin:8px 0;
+    border-bottom:2px white;
+    
+}
+.textbox i{
+    width:26px;
+    float:left;
+    text-align:center;
+}
+.textbox input{
+    border:2px;
+    outline:2px;
+    background:white;
+    color:gray;
+    font-size:18px;
+    width:80%;
+    float:left;
+    margin:0 10px;
+    font:Arial;
+}
+.button1{
+    width:100%;
+    background:none;
+    border:3px solid;
+    color:white;
+    padding:5px;
+    font-size:18px;
+    margin:12px 0;
+    cursor:pointer;
+}
+
+.center{
+    text-align:center;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+    color:white;
+}
+.center :hover{
+    color:#c8c8c8;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#createaccount{
+    text-decoration: none;
+    color:white;
+}
+
+.wrap{
+    max-width:350px;
+    border-radius:20px;
+    margin:auto;
+    background:#B7C3D0;
+    box-sizing:border-box;
+    padding:40px;
+    color:white;
+    margin-top:100px;
+}
+h1{
+    text-align:center;
+
+}
+input[type=text], input[type=password]{
+    width=100%;
+    box-sizing:border-box;
+    padding:13px 50px;
+    background: #d8d8d8;
+    outline:none;
+    border:none;
+    border-bottom:1px dotted #fff;
+    color:white;
+    border-radius:5px;
+    margin:5px;
+    font-weight:bold;
+
+
+}
+input[type=submit]{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:70%;
+    border-radius:20px;
+    font-size:20px;
+    color:white;
+}
+input[type=submit]:hover{
+    background:#00b2ee;
+    opacity:70%;
+    cursor:pointer;
+}
+
+
+.continuebutton{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:70%;
+    border-radius:20px;
+    font-size:20px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.continuebutton:hover{
+    background:#00b2ee;
+    opacity:70%;
+    cursor:pointer;
+}
+
+.createbutton{
+    width:100%;
+    box-sizing:border-box;
+    padding:10px 0;
+    margin-top:30px;
+    outline:none;
+    border:none;
+    background:#60adde;
+    opacity:70%;
+    border-radius:20px;
+    font-size:20px;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.createbutton:hover{
+    background:#00b2ee;
+    opacity:70%;
+    cursor:pointer;
+
+}
+.icons{
+    text-align:center;
+    font-size:20px;
+    cursor:pointer;
+    text-decoration:none;
+    color:white;
+}
+
+#gmail {
+    text-decoration:none;
+    color:white;
+}
+#fb{
+    text-decoration: none;
+    color:white;
+}
